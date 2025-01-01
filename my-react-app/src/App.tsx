@@ -4,8 +4,7 @@ import CustomCursor from './components/CustomCursor';
 const App: React.FC = () => {
   return (
     <div>
-      <h1>Custom Cursor with PNG</h1>
-      <p>Move your cursor around to see the custom image follow.</p>
+      <h1>Custom Cursor</h1>
       <CustomCursor />
     </div>
   );
