@@ -1,0 +1,16 @@
+/* Hide the default cursor */
+body {
+  cursor: none;
+}
+
+/* Custom cursor styles using a PNG image */
+.custom-cursor {
+  position: fixed;
+  width: 40px; /* Adjust based on your image size */
+  height: 40px; /* Adjust based on your image size */
+  background: url('/cursor.png') no-repeat center center;
+  background-size: contain;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  z-index: 1000;
+}
